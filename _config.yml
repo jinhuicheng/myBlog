@@ -1,0 +1,39 @@
+# Site settings
+name: 小灰技术博客
+email: cjh985034577@126.com
+author: jinhui
+url: https://github.com/jinhuicheng
+resume_site: https://github.com/jinhuicheng
+github: https://github.com/jinhuicheng
+baseurl: "/myBlog"
+description: 努力让自己从事真正的技术工种，而不是熟练工种
+meta_description: 小灰技术博客
+motto: 小灰技术博客
+banner: 小灰技术博客
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: jinhuicheng
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : jinhui
+    disqus :
+        short_name : jinhui
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
